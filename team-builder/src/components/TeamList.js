@@ -22,14 +22,14 @@ function TeamList () {
 
     return (
         <div>
-          <h1>Team Members</h1>
+          <h1 className="header">Team Members</h1>
             <div>
             <div>
                 <Form addNewMember={addNewMember} />
             </div>
                {members.map(member => (
                   <div key={member.id}>
-                       <h4>{member.name}</h4>
+                       <h4 className="name">{member.name}</h4>
                        <p>{member.email}</p>
                        <p>{member.role}</p>
                   </div>

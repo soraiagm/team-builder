@@ -20,3 +20,46 @@
 .App-link {
   color: #09d3ac;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  background: lightblue;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.name {
+  margin: auto;
+  margin-top: 40px;
+}
+
+p {
+  margin: auto;
+}
+
+.header {
+  color: coral;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px lightslategrey;
+}
+
+label {
+  margin: 20px;
+  color: chocolate;
+}

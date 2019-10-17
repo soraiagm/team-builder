@@ -21,11 +21,11 @@ function Form (props) {
     };
    
     return (
-       <form onSubmit={submitForm}>
+       <form className="form" onSubmit={submitForm}>
             <label
                 htmlFor="name">Enter your name:
             </label>
-            <input 
+            <input className="form-input"
                 id="name"
                 type="text"
                 name="name"
@@ -35,7 +35,7 @@ function Form (props) {
             <label
                 htmlFor="email">Enter your email:
             </label>
-            <input 
+            <input className="form-input"
                 id="email"
                 type="text"
                 name="email"
@@ -45,7 +45,7 @@ function Form (props) {
             <label
                 htmlFor="role">What is your role: 
             </label>
-            <input 
+            <input className="form-input"
                 id="role"
                 type="text"
                 name="role"
